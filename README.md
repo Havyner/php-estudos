@@ -9,7 +9,7 @@ Aprendendo PHP
 
 # Instalação
 
-Clique no link para ver instruções [CLIQUE AQUI]()
+Clique no link para ver instruções [CLIQUE AQUI](https://github.com/Havyner/php-estudos/blob/master/INSTALACAO.md)
 
 # Sintaxe
 
