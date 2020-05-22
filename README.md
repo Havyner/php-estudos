@@ -3,6 +3,8 @@ Aprendendo PHP
 
 # O que é?
 
+PHP é uma linguagem de programação voltada para criação de aplicações web. Atualmente é uma das linguagens mais utilizada no mundo, tendo uma sintaxe simples e fácil de aprender.
+
 # Como surgiu?
 
 # Problemas que resolvem?
