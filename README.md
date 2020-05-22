@@ -7,6 +7,8 @@ PHP é uma linguagem de programação voltada para criação de aplicações web
 
 # Como surgiu?
 
+Criada por Rasmus Lerdorf em 1994, sendo sua primeira versão apenas um conjunto de códigos CGI escrito em C. No inicio a ideia do criador era de acompanhar as visitas em seu currículo pessoal. O sucesso da linguagem foi tão grande que seu criador resolveu transformar o conjunto de ferramentas em uma linguagem de programação. Em 1998 a linguagem já estava presente em boa parte dos websites.
+
 # Problemas que resolvem?
 
 # Instalação
