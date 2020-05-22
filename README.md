@@ -11,6 +11,10 @@ Criada por Rasmus Lerdorf em 1994, sendo sua primeira versão apenas um conjunto
 
 # Problemas que resolvem?
 
+A diferença de PHP com relação a linguagens semelhantes a Javascript é que o código PHP é executado no servidor, sendo enviado para o cliente apenas html puro. Desta maneira é possível interagir com bancos de dados e aplicações existentes no servidor, com  a vantagem de não expor o código fonte para o cliente. Isso pode ser útil quando o programa está lidando com senhas ou qualquer tipo de informação confidencial.
+
+## Vantagens:
+
 # Instalação
 
 Clique no link para ver instruções [CLIQUE AQUI](https://github.com/Havyner/php-estudos/blob/master/INSTALACAO.md)
