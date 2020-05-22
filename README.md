@@ -15,6 +15,11 @@ A diferença de PHP com relação a linguagens semelhantes a Javascript é que o
 
 ## Vantagens:
 
+* Fácil de aprender: possui uma sintaxe de fácil entendimento.
+* Alto desempenho: é capaz de supertar grandes quantidades de dados.
+* Possui código aberto: gratuito para qualquer usuario.
+* Compatível com os principais bancos de dados: A linguagem PHP é compatível com os principais tipos de bancos de dados, como MySQL, SQLite, Firebird, Interbase e Oracle.
+
 # Instalação
 
 Clique no link para ver instruções [CLIQUE AQUI](https://github.com/Havyner/php-estudos/blob/master/INSTALACAO.md)
