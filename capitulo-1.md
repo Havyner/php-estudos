@@ -10,4 +10,17 @@
 .inc.php         --------> Arquivo a ser incluido.
 ```
 
+## Delimitadores:
+
+O código deve estar sempre contido nos seguinte delimitadores:
+
+```
+<?php
+// codigo;
+// codigo;
+?>
+```
+
+TODO COMANDO É DELIMITADO POR PONTO-E-VÍRGULA (;).
+
 [VOLTAR](https://github.com/Havyner/php-estudos/blob/master/README.md)
