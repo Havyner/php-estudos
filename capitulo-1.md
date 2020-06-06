@@ -21,6 +21,16 @@ O código deve estar sempre contido nos seguinte delimitadores:
 ?>
 ```
 
-TODO COMANDO É DELIMITADO POR PONTO-E-VÍRGULA (;).
+**TODO COMANDO É DELIMITADO POR PONTO-E-VÍRGULA (;).**
+
+## Comentário no código:
+
+O código pode ser comentado uma única linha ou várias de uma vez.
+```
+// única linha
+/*
+ várias linhas
+ */
+```
 
 [VOLTAR](https://github.com/Havyner/php-estudos/blob/master/README.md)
