@@ -88,5 +88,31 @@ array (
 )
 ```
 
+## Variáveis
+
+Variáveis são indentificadores utilizados para representar valores mutáveis de dados, que ficam alocados na memória, no PHP uma variável pode conter diversos tipos de dados, strings, inteiros, números ponto flutuante, objetos, etc. No PHP as variáveis são sempre precedido pelo caractere cifrão ($), exemplo:
+```
+$variável
+```
+
+Sendo importante nunca utilizar números para iniciar uma nomeclatura de variáveis, nunca utilizar espaços em branco no meio do identificador, nunca utilizar caracteres especiais, evitar variáveis com mais de 15 caracteres, sempre criar variáveis com nomeclatura significativa e utilizar preferencialmente  palavras em minúculo e sperados pelo caractere "_".
+
+Em alguns casos precisamos de nomes de variáveis que precisam mudar de acordo com desterminadas situações, no PHP possui o conceito de **variáveis variantes (variable variables)**, sendo essas representadas por dois sinais de cifrão ($), assim o PHP irá referenciar a variável representada pelo conteúdo da primeira. exemplo:
+```
+<?php
+//define o nome da variável
+$variavel = 'nome';
+
+//cria a variável indeificada pelo conteúdo de $variavel
+$$variavel = 'maria';
+?>
+```
+
+Sempre é criada uma nova área de armazenamento na memória quando uma variável é atribuída a outra.
+
+### Tipos de Variáveis
+
+**
+
 
 [VOLTAR](https://github.com/Havyner/php-estudos/blob/master/README.md)
