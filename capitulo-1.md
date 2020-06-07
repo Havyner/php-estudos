@@ -211,5 +211,6 @@ echo MAXIMO_CLIENTES;
 Resultado: 100
 ```
 
+## Operadores
 
 [VOLTAR](https://github.com/Havyner/php-estudos/blob/master/README.md)
