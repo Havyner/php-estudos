@@ -112,7 +112,89 @@ Sempre é criada uma nova área de armazenamento na memória quando uma variáve
 
 ### Tipos de Variáveis
 
-**
+**booleano**
+
+Expressa um valor lógicoque pode ser verdadeiro ou falso. Utiliza-se as palavras-chave *TRUE* ou *FALSE* para especificar um valor booleano, exmeplo:
+```
+<?php
+//declara a variável com valor TRUE
+$exibir_nome = TRUE;
+
+//testa se $exibir_nome é TRUE
+if ($exibir_nome){
+    echo 'Havyner';
+}
+?>
+Resultado: Havyner
+```
+
+**numérico**
+
+Números podem ser especificados em notação decimal, hexadecimal ou octal.
+
+**string**
+
+É uma cadeia de caracteres alfanuméricos , utilizando aspas simples '' ou duplas "" para declará-las.
+```
+<?php
+    $variavel = 'aspas simples';
+    $variavel = "aspas duplas";
+?>
+```
+
+**array**
+
+É uma lista de valores armazenados na memória, podem ser de diferentes tipos e ser acessados a qualquer momento, pois cada valor é relacionado a uma chave e podendo crescer dinamicamento com adição de novos itens, exemplo:
+```
+<?php
+    $carros = array('Ferrari', 'Porche', 'Camaro');
+    echo $carros[1]; // resultado = Porche
+?>
+```
+
+**objeto**
+
+É uma entidade com um determinado comportamento definido por seus métodos e propriedades, para criar um objeto utiliza-se o operador *new*, exemplo:
+```
+<?php
+class computador{
+    var $cpu;
+    function ligar(){
+        echo "Ligando computador a {$this->cpu}...";
+    }
+}
+
+$obj = new computador;
+$obj->cpu = "500Mhz";
+$obj->ligar();
+?>
+
+Resultado: Ligando computador a 500Mhz...
+```
+
+**recursor**
+
+É uma variável especial que mantém um referência de recurso externo, são criados e utilizados por funções especiais, como conexão ao banco de dados, exemplo:
+```
+resource musql_connect(...)
+```
+
+**misto**
+
+Representa múltiplos tipos de dados em um mesmo parâmetro. Um parâmetro do tipo *mixed* indica que a função aceita diversos tipos de dados. exemplo:
+```
+string gettype (mixed var)
+```
+
+**callback**
+
+Algumas funções como call_user_func() aceitam um parâmetro que significa uma função a ser executada, este tipo de dado é chamado de callback.
+
+**NULL**
+
+Significa que a variável não possui valor. NULL é o único valor possível do tipo NULL.
+
+
 
 
 [VOLTAR](https://github.com/Havyner/php-estudos/blob/master/README.md)
