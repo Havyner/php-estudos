@@ -194,7 +194,22 @@ Algumas funções como call_user_func() aceitam um parâmetro que significa uma 
 
 Significa que a variável não possui valor. NULL é o único valor possível do tipo NULL.
 
+## Constantes
 
+Constante é um valor que não sofre mudanças durante a execução do programa. Assim como variáveis, ela é representada por um identificador, mas so pode conter valores escalares, ou seja, não pode ser composto por outros valores, como vetores ou objetos. Geralmente utilizam-se nomes em maiúsculo e não possuem o cifrão ($). Exemplo:
+```
+MAXIMO_CLIENTES
+```
+
+Pode ser definida utilizando a função *define()*. Quando definida, ela não pode ser modificada ou anulada, exemplo:
+```
+<?php
+define("MAXIMO_CLIENTES", 100);
+echo MAXIMO_CLIENTES;
+?>
+
+Resultado: 100
+```
 
 
 [VOLTAR](https://github.com/Havyner/php-estudos/blob/master/README.md)
