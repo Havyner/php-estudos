@@ -10,10 +10,10 @@
 
  if($hora == 0){
      echo "Valor Inválido!";
- }elseif(($hora > 18.00) || ($hora <= 5.59)){
-    echo "Boa Noite!";
- }elseif(($hora >= 6.00) || ($hora <= 12.00)){
+ }elseif(($hora >= 6.00) && ($hora <= 12.00)){
     echo "Bom Dia!";
- }elseif(($hora >= 13.00) || ($hora <= 18.00)){
+ }elseif(($hora >= 13.00) && ($hora <= 18.00)){
     echo "Boa Tarde!";
+ }elseif(($hora > 18.00) && ($hora <= 5.59)){
+    echo "Boa Noite!";
  }
