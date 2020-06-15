@@ -16,31 +16,25 @@ Faça um programa que recebe o salário de um colaborador e o reajuste segundo o
 $salario = 1600.00;
 $novo_salario;
 $aumento;
+$porcentagem = 0;
 
 echo "Seu salário atual é de: R$ $salario </br>";
 
 if($salario <= 280.00){
-    $aumento = (($salario * 20) / 100);
-    $novo_salario = $aumento + $salario;
-    echo "A sua porcentagen é: 20%</br>";
-    echo "Valor aumentado: R$ $aumento </br>";
-    echo "Novo Salário com reajuste é de: R$ $novo_salario";
+    $aumento = $salario * 0.2;
+    $porcentagem = 20;
 }elseif(($salario > 280.00) && ($salario <= 700.00)){
-    $aumento = (($salario * 15) / 100);
-    $novo_salario = $aumento + $salario;
-    echo "Você teve um porcentual de: 15%</br>";
-    echo "Valor aumentado: R$ $aumento </br>";
-    echo "Novo Salário com reajuste é de: R$ $novo_salario";
+    $aumento = $salario * 0.15;
+    $porcentagem = 15;
 }elseif(($salario > 700.00) && ($salario <= 1500.00)){
-    $aumento = (($salario * 10) / 100);
-    $novo_salario = $aumento + $salario;
-    echo "Você teve um porcentual de: 10%</br>";
-    echo "Valor aumentado: R$ $aumento </br>";
-    echo "Novo Salário com reajuste é de: R$ $novo_salario";
+    $aumento = $salario * 0.1;
+    $porcentagem = 10;
 }elseif($salario > 1500.00){
-    $aumento = (($salario * 5) / 100);
-    $novo_salario = $aumento + $salario;
-    echo "Você teve um porcentual de: 5%</br>";
-    echo "Valor aumentado: R$ $aumento </br>";
-    echo "Novo Salário com reajuste é de: R$ $novo_salario";
+    $aumento = $salario * 0.05;
+    $porcentagem = 5;
 }
+
+$novo_salario = $aumento + $salario;
+echo "Você teve um porcentual de: $porcentagem %</br>";
+echo "Valor aumentado: R$ $aumento </br>";
+echo "Novo Salário com reajuste é de: R$ $novo_salario";

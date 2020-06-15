@@ -6,7 +6,7 @@ Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço
 
 <?php
 
-$tamanho_area_pintada = 120;
+$tamanho_area_pintada = 180;
 $litros = $tamanho_area_pintada / 3;
 $quantidade_latas = $litros / 18;
 $valor_pago = floor($quantidade_latas + 1) * 80;
